@@ -11,7 +11,7 @@ class FirstScreen extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           style: ElevatedButton.styleFrom(
-            primary: Colors.grey[700], // This is the color of the button
+            backgroundColor: Colors.grey[700], // This is the color of the button
           ),
           child: Text('Vai alla seconda schermata'),
           onPressed: () {
